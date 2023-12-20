@@ -11,4 +11,8 @@ public class Rectangle extends Figure {
         this.y = y;
     }
 
+    @Override
+    public double perimeter() {
+        return 0;
+    }
 }

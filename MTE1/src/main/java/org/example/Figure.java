@@ -7,4 +7,6 @@ public abstract class Figure {
     public Figure (String color){
         this.color=color;
     }
+
+    public abstract double perimeter();
 }
